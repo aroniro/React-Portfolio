@@ -1,4 +1,5 @@
 import About from './views/About/About';
+import Project from './views/Project/Project';
 
 const Routes = [
     {
@@ -10,7 +11,7 @@ const Routes = [
     {
         path: "/oooo",
         name: "OOOO",
-        component: About,
+        component: Project,
         layout: "/main"
     },
     {

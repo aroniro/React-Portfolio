@@ -15,7 +15,7 @@ const navbarStyle = theme => ({
     },
     container : {
         ...container,
-        minHeight: "50px"
+        minHeight: "100px"
     }
 });
 

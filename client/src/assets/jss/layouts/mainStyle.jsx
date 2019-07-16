@@ -19,10 +19,10 @@ const style = theme => ({
         width: "100%",
     },
     content: {
-      marginTop: "70px",
-      padding: "30px 15px",
-      minHeight: "calc(100vh - 123px)"
-    },
+      marginTop: "100px",
+      padding: "30px 30px",
+    //   minHeight: "calc(100vh - 123px)"
+    }
 });
 
 export default style;

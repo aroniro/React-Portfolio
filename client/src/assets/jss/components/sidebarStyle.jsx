@@ -1,5 +1,7 @@
 import {
     drawerWidth,
+    grayColor,
+    hexToRgb
 } from "assets/jss/common.jsx";
 
 const sidebarStyle = theme => ({
@@ -24,9 +26,39 @@ const sidebarStyle = theme => ({
     },
     sideTitle : {
         display : "block",
-        margin : "10px 0px"
-    }
-
+        margin : "20px 0px"
+    },
+    logo: {
+        position: "relative",
+        "text-align": "center",
+        padding: "15px 0px",
+        zIndex: "4",
+        "&:after": {
+            content: '""',
+            position: "absolute",
+            bottom: "0",
+        
+            height: "1px",
+            right: "15px",
+            width: "calc(100% - 30px)",
+            backgroundColor: "rgba(" + hexToRgb(grayColor[6]) + ", 0.3)"
+        }
+    },
+    logoImage: {
+        // width: "30px",
+        // display: "inline-block",
+        // maxHeight: "30px",
+        
+        // marginLeft: "10px",
+        // marginRight: "15px"
+    },
+    img: {
+        width: `calc(${drawerWidth}px/2)`,
+        // top: "23px",
+        // position: "absolute",
+        verticalAlign: "middle",
+        border: "0"
+    },
 });
 
 export default sidebarStyle;

@@ -11,6 +11,8 @@ import Navbar from "components/Navbar/Navbar";
 
 import routes from "route.js";
 
+import logo from "assets/img/logo.png";
+
 const switchroutes = (
     <Switch>
         {routes.map((prop, key) => {
@@ -41,7 +43,8 @@ class Main extends Component {
             <div className={classes.wrapper}>
                 <Sidebar
                     routes={routes}
-                    logoText={"iklee"}
+                    logoText={"ikikikiikikikkiikik"}
+                    logo={logo}
                 />
                 <div className={classes.mainPanel}>
                     <Navbar
