@@ -9,7 +9,7 @@
     "dependencies": {
         "@material-ui/icons": "^4.2.1",
         "body-parser": "^1.18.3",
-        "express": "^4.16.4",
+        "express": "^4.17.3",
         "history": "^4.9.0",
         "react-router-dom": "^5.0.1"
     },
